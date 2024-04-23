@@ -1,0 +1,116 @@
+.mainblock{
+    
+    
+    width: 80%;
+    display: inline-block;
+    clear: both;
+}
+.block{
+    border: 1px solid rgb(169, 169, 169);
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 2%;
+    float: left;
+    width: 45%;
+   font-weight: 600;
+   box-shadow: 2px 2px 4px #444444;
+}
+@media (max-width: 767px) {
+    .mainblock {
+        display: table;
+    }
+    .block{
+        width: 100%;
+
+    }
+}
+.blog-post {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+input[type="text"],
+textarea,input[type="file"]  {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    backdrop-filter: blur(5px); /* Apply background blur */
+}
+
+.modal-content {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.preview-image {
+    max-width: 100%;
+    height: auto;
+}
+::-webkit-file-upload-button{
+    padding: 1%;
+    border: none;
+    background-color: #4B49AC;
+    color: white;
+    border-radius: 4px;
+}
+::-webkit-file-upload-button:hover{
+    background-color: #615fb3;
+}
+.subbtn{
+    padding: 1%;
+    border: none;
+    background-color: #4B49AC;
+    color: white;
+    border-radius: 4px;
+}
+.subbtn:hover{
+    background-color: #615fb3;
+}
+@media (max-width: 767px) {
+    .table-responsive{
+        width: 50%;
+    }
+}
